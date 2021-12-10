@@ -1,0 +1,57 @@
+.visible-print {
+    display: none;
+}
+
+@page {
+    size: A7;
+    margin: 0;
+}
+
+@media print {
+    .navbar,
+    .menu,
+    .sidebar,
+    .page-footer,
+    .background-tasks,
+    .theme-colors {
+        display: none !important;
+    }
+
+    main .container-fluid .row:not(.invoice, .visible-print) {
+        display: none !important;
+    }
+
+    .visible-print {
+        display: block;
+    }
+
+    .hidden-print {
+        display: none;
+    }
+
+    html, body {
+        width: 80mm;
+        min-height: 80mm;
+        height: auto;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+    }
+
+    table {
+        width: 100%;
+        text-align: center;
+
+        td, th {
+            vertical-align: middle;
+            border: 1px solid #999;
+            border-collapse: collapse;
+            padding: 0.25rem 0.5rem;
+        }
+    }
+
+    .page-break {
+        clear: both;
+        page-break-after: always;
+    }
+}

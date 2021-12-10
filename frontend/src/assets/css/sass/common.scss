@@ -1,0 +1,81 @@
+@import './animations';
+@import './print';
+
+td.table-actions {
+    font-size: 16px;
+    padding: 5px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.mdi:before {
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+}
+
+.table {
+    th, td {
+        vertical-align: middle !important;
+    }
+
+    .form-group {
+        margin-bottom: 0;
+    }
+}
+
+.apm-editable {
+    .form {
+        background-color: var(--light);
+    }
+    .front {
+        position: relative;
+
+        .text-muted {
+            color: #ccc !important;
+        }
+
+        .edit-icon {
+            position: absolute;
+        }
+    }
+}
+
+.badge {
+    .front, .apm-editable {
+        min-height: unset !important;
+    }
+}
+
+.v-select.form-control {
+    padding: 0 !important;
+    border: none !important;
+}
+
+::placeholder {
+    color: #6c757d !important;
+}
+
+.modal-xlg {
+    max-width: 100vw !important;
+    width: 95vw !important;
+}
+
+.custom-control-inline:last-child {
+    margin-right: 0;
+}
+
+.apm-search {
+    .search-icon, .clear-icon {
+        top: 0.55rem !important;
+    }
+}

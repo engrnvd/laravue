@@ -1,0 +1,13 @@
+{
+    "/js/index.js": "/js/index.js",
+    "/js/manifest.js": "/js/manifest.js",
+    "/js/vendor.js": "/js/vendor.js",
+    "/app.js": "/app.js",
+    "/error.js": "/error.js",
+    "/piaf.js": "/piaf.js",
+    "/second-menu.js": "/second-menu.js",
+    "/single.js": "/single.js",
+    "/user.js": "/user.js",
+    "/vendors~app.js": "/vendors~app.js",
+    "/vendors~user.js": "/vendors~user.js"
+}
